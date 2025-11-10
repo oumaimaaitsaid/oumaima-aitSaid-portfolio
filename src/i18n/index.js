@@ -119,13 +119,13 @@ const resources = {
       }
     }
   },
-  en: {
+en: { 
     translation: {
       hero: {
-        title: "Hi, I'm Nabil Ettihadi",
-        description: "Passionate Full Stack Developer with strong experience in Java/Spring Boot and Angular. I develop modern web applications with a focus on quality and development best practices.",
+        title: "Hello, I'm Oumaima Ait Said",
+        description: "Passionate Full Stack Developer with solid experience in Java/Spring Boot and Angular. I develop modern web applications with a focus on quality and development best practices.",
         contactBtn: "Contact Me",
-        downloadCV: "Download Resume"
+        downloadCV: "Download CV"
       },
       nav: {
         about: "About",
@@ -155,32 +155,32 @@ const resources = {
         positions: {
           geerd: {
             title: "Full Stack Web Developer - Internship",
-            company: "GEERD",
-            period: "05/2024 - 07/2024"
+            company: "Pprime",
+            period: "05/2025 - 07/2025"
           },
           youcode: {
             title: "Full Stack Web Development",
             company: "Youcode Safi - UM6P",
-            period: "2023 - ongoing"
+            period: "2024 - Present"
           }
         },
         education: {
           bac: {
-            title: "Mathematics Science Baccalaureate",
-            option: "B BIOF",
-            school: "Alkhawarizmi Technical High School - Safi",
-            period: "2020"
+            title: "Baccalaureate in Science",
+            option: "Physics and Chemistry",
+            school: "Salah Eddine ElAyoubi High School - Safi",
+            period: "2015"
           },
           university: {
-            title: "Mathematics and Computer Science",
+            title: "Biology",
             school: "Polydisciplinary Faculty of SAFI",
-            period: "2020 - 2023"
+            period: "2015 - 2017"
           },
           certificate: {
-            title: "Artificial Intelligence Certificate",
-            organization: "MoroccoAI",
-            school: "Polydisciplinary Faculty of SAFI",
-            period: "2022"
+            title: "Computer Development",
+            organization: "Full Stack Developer",
+            school: "Ntic Safi",
+            period: "2020 - 2022"
           }
         }
       },
@@ -236,13 +236,13 @@ const resources = {
       }
     }
   },
-  de: {
+  de: { 
     translation: {
       hero: {
-        title: "Hallo, ich bin Nabil Ettihadi",
-        description: "Leidenschaftlicher Full-Stack-Entwickler mit fundierter Erfahrung in Java/Spring Boot und Angular. Ich entwickle moderne Webanwendungen mit Fokus auf Qualität und Best Practices.",
-        contactBtn: "Kontaktieren Sie mich",
-        downloadCV: "Lebenslauf herunterladen"
+        title: "Hallo, ich bin Oumaima Ait Said",
+        description: "Leidenschaftliche Full-Stack-Entwicklerin mit solider Erfahrung in Java/Spring Boot und Angular. Ich entwickle moderne Webanwendungen mit Fokus auf Qualität und bewährte Entwicklungspraktiken.",
+        contactBtn: "Kontakt",
+        downloadCV: "Lebenslauf"
       },
       nav: {
         about: "Über mich",
@@ -252,13 +252,13 @@ const resources = {
       },
       about: {
         title: "Über mich",
-        description: "Als leidenschaftlicher Webentwickler und Technologie-Enthusiast bin ich ein Full-Stack-Entwickler mit fundiertem Informatik-Hintergrund. Mein akademischer Werdegang und praktische Projekte haben es mir ermöglicht, besondere Expertise in Java und Spring Boot sowie in moderner Webentwicklung zu entwickeln.",
+        description: "Als Full-Stack-Entwicklerin mit fundierter IT-Ausbildung begeistere ich mich für Webentwicklung und neue Technologien. Mein akademischer Werdegang und meine praktischen Projekte haben es mir ermöglicht, besondere Expertise in Java und Spring Boot sowie in der modernen Webentwicklung aufzubauen.",
         frontend: {
-          title: "Frontend-Entwickler",
+          title: "Frontend-Entwicklerin",
           description: "HTML5, CSS3, Sass, JavaScript, React, Angular, TailwindCSS, Bootstrap, i18n"
         },
         backend: {
-          title: "Backend-Entwickler",
+          title: "Backend-Entwicklerin",
           description: "Java (Spring Boot, Spring Security, Spring MVC, Spring Data, JEE, Hibernate JPA), PHP (Laravel), RESTful APIs"
         },
         ui: {
@@ -271,33 +271,33 @@ const resources = {
         education: "Ausbildung",
         positions: {
           geerd: {
-            title: "Full-Stack Webentwickler - Praktikum",
-            company: "GEERD",
-            period: "05/2024 - 07/2024"
+            title: "Full-Stack-Webentwicklerin - Praktikum",
+            company: "Pprime",
+            period: "05/2025 - 07/2025"
           },
           youcode: {
-            title: "Full-Stack Webentwicklung",
+            title: "Full-Stack-Webentwicklung",
             company: "Youcode Safi - UM6P",
-            period: "2023 - laufend"
+            period: "2024 - laufend"
           }
         },
         education: {
           bac: {
-            title: "Abitur in Mathematik",
-            option: "B BIOF",
-            school: "Technisches Gymnasium Alkhawarizmi - Safi",
-            period: "2020"
+            title: "Abitur (Naturwissenschaften)",
+            option: "Physik und Chemie",
+            school: "Lycée Salah Eddine ElAyoubi - Safi",
+            period: "2015"
           },
           university: {
-            title: "Mathematik und Informatik",
-            school: "Fakultät für Interdisziplinäre Studien SAFI",
-            period: "2020 - 2023"
+            title: "Biologie",
+            school: "Fakultät Polydisziplinär de SAFI",
+            period: "2015 - 2017"
           },
           certificate: {
-            title: "Zertifikat für Künstliche Intelligenz",
-            organization: "MoroccoAI",
-            school: "Fakultät für Interdisziplinäre Studien SAFI",
-            period: "2022"
+            title: "IT-Entwicklung",
+            organization: "Full-Stack-Entwicklerin",
+            school: "Ntic Safi",
+            period: "2020 - 2022"
           }
         }
       },
@@ -307,42 +307,42 @@ const resources = {
         viewCode: "Code",
         baticuisine: {
           title: "Bati-Cuisine",
-          description: "Java-Anwendung zur Kostenkalkulation für Küchenbau und -renovierung. Komplette Projektverwaltung mit Berechnung von Materialkosten, Arbeitskosten und Erstellung individueller Angebote."
+          description: "Java-Anwendung zur Schätzung der Kosten für den Bau und die Renovierung von Küchen. Vollständiges Projektmanagement mit Berechnung der Material- und Arbeitskosten sowie Erstellung individueller Angebote."
         },
         wrm: {
-          title: "WRM - Wartezimmerverwaltung",
-          description: "Moderne REST-API für intelligente Wartezimmerverwaltung. Implementiert mehrere Planungsalgorithmen (FIFO, Priorität, SJF), mit Echtzeit-Besucherverfolgung und detaillierter Statistikgenerierung."
+          title: "WRM - Wartezimmer-Management",
+          description: "Moderne REST-API für intelligentes Wartezimmer-Management. Implementiert mehrere Planungsalgorithmen (FIFO, Priority, SJF), mit Echtzeit-Besucherverfolgung und detaillierter Statistikgenerierung."
         },
         ecomove: {
           title: "EcoMove",
-          description: "Transportticket-Verwaltungsplattform, die es Kunden ermöglicht, Tickets für verschiedene Verkehrsmittel zu suchen und zu buchen. Vollständige Verwaltung von Kunden, Reservierungen und Reisen."
+          description: "Plattform zur Verwaltung von Fahrscheinen, die es Kunden ermöglicht, Tickets für verschiedene Verkehrsmittel zu suchen und zu buchen. Komplette Verwaltung von Kunden, Reservierungen und Fahrten."
         },
         citronix: {
           title: "Citronix",
-          description: "Verwaltungsanwendung für eine Zitronenfarm zur Verfolgung von Produktion, Ernte und Verkauf mit optimierter Baumproduktivitätsverwaltung."
+          description: "Management-Anwendung für eine Zitronenfarm, die die Verfolgung von Produktion, Ernte und Verkauf ermöglicht, mit optimiertem Management der Baumproduktivität."
         },
         cch: {
           title: "CCH API",
-          description: "REST-API für die Verwaltung von Radrennen, einschließlich Team-, Fahrer-, Rennen- und Ergebnisverwaltung."
+          description: "REST-API für das Management von Radsportwettbewerben, einschließlich der Verwaltung von Teams, Fahrern, Rennen und Ergebnissen."
         },
         itlens: {
           title: "ITLens",
-          description: "Fortgeschrittenes Umfrageverwaltungssystem mit hierarchischer Umfrageerstellung und Echtzeitanalyse."
+          description: "Fortschrittliches System zur Umfrageverwaltung mit Erstellung hierarchischer Umfragen und Echtzeitanalyse."
         },
         recyclehub: {
           title: "RecycleHub",
-          description: "Eine innovative Recycling-Verwaltungsanwendung, die Einzelpersonen mit zertifizierten Sammlern verbindet. Komplettes System mit Anfrageverwaltung, Echtzeit-Verfolgung und Punkte-basiertem Belohnungsprogramm."
+          description: "Eine innovative Recycling-Management-Anwendung, die Privatpersonen mit zertifizierten Sammlern verbindet. Komplettes System mit Auftragsverwaltung, Echtzeit-Tracking und punktebasiertem Belohnungsprogramm."
         }
       },
       contact: {
         title: "Kontakt",
-        subtitle: "Kontaktieren Sie mich gerne!",
+        subtitle: "Zögern Sie nicht, mich zu kontaktieren!",
         email: "E-Mail",
         phone: "Telefon"
       },
       languages: {
         title: "Sprachen",
-        switchTo: "Zu {{lang}} wechseln",
+        switchTo: "Wechseln zu {{lang}}",
         ar: "Arabisch - Muttersprache",
         fr: "Französisch - Fließend",
         en: "Englisch - Mittelstufe",
