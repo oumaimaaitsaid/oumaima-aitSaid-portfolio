@@ -2,9 +2,9 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./DownloadCV.module.css";
 import { getImageUrl } from "../../utils";
-import cvFR from "../../assets/cv/Oumaima_AitSaid_CV_FR (2).pdf";
-import cvEN from "../../assets/cv/Oumaima_AitSaid_CV_FR (2).pdf";
-import cvDE from "../../assets/cv/Lebenslauf_Nabil_Ettihadi.pdf";
+import cvFR from "../../assets/cv/OUMAIMA_AIT_SAID_CV_FR.pdf";
+import cvEN from "../../assets/cv/Oumaima_Ait_Said_CV_EN.pdf";
+import cvDE from "../../assets/cv/Oumaima_Ait_Said_CV_DE.pdf";
 
 export const DownloadCV = () => {
   const { t, i18n } = useTranslation();
