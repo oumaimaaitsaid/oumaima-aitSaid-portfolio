@@ -1,57 +1,42 @@
 [
+  
   {
-    "title": "RecycleHub",
-    "imageSrc": "projects/recyclehub.png",
-    "description": "Une application de gestion de recyclage innovante qui connecte les particuliers aux collecteurs agréés. Système complet avec gestion des demandes, suivi en temps réel et programme de récompenses par points.",
-    "skills": ["Angular 17", "NgRx", "RxJS", "TypeScript", "JSON Server", "Tailwind", "Reactive Forms"],
-    "demo": "https://github.com/nabilettihadi/RecycleHub",
-    "source": "https://github.com/nabilettihadi/RecycleHub.git"
-  },
-  {
-    "title": "Citronix",
-    "imageSrc": "projects/Citronix.png",
-    "description": "Application de gestion pour une ferme de citrons, permettant de suivre la production, la récolte, et la vente, avec une gestion optimisée de la productivité des arbres.",
-    "skills": ["Spring Boot", "JUnit", "Mockito", "PostgreSQL", "REST API"],
-    "demo": "https://github.com/nabilettihadi/Citronix",
-    "source": "https://github.com/nabilettihadi/Citronix.git"
-  },
-  {
-    "title": "CCH API",
-    "imageSrc": "projects/cch.png",
+    "title": "blood-bank-management",
+    "imageSrc": "projects/bbm.png",
     "description": "API REST pour la gestion des compétitions cyclistes, incluant la gestion des équipes, des coureurs, des courses et des résultats.",
-    "skills": ["Java", "Spring MVC", "Hibernate", "PostgreSQL", "Maven"],
-    "demo": "https://github.com/nabilettihadi/CCH",
-    "source": "https://github.com/nabilettihadi/CCH.git"
+    "skills": ["Java", "Spring MVC", "Hibernate", "PostgreSQL", "Maven","JPA"],
+    "demo": "https://github.com/oumaimaaitsaid/blood-bank-management.git",
+    "source": "https://github.com/oumaimaaitsaid/blood-bank-management.git"
   },
   {
-    "title": "ITLens",
-    "imageSrc": "projects/itlens.png",
-    "description": "Système de gestion avancée des enquêtes avec création d'enquêtes hiérarchiques et analyse en temps réel.",
-    "skills": ["Java", "Spring Boot", "PostgreSQL", "Maven"],
-    "demo": "https://github.com/nabilettihadi/ITLens",
-    "source": "https://github.com/nabilettihadi/ITLens.git"
+    "title": "delivery-optimizer",
+    "imageSrc": "projects/delivery.png",
+    "description": "Ce projet est une application Spring Boot qui gère et optimise des tournées de livraison.",
+    "skills": ["Java 17", "Spring Boot", "PostgreSQL", "Maven", "Git"],
+    "demo": "https://github.com/oumaimaaitsaid/delivery-optimizer-v2.git",
+    "source": "https://github.com/oumaimaaitsaid/delivery-optimizer-v2.git"
   },
   {
-    "title": "WRM - Waiting Room Management",
-    "imageSrc": "projects/wrm.png",
+    "title": "Pprime_Site",
+    "imageSrc": "projects/Pprime.png",
     "description": "API REST moderne pour la gestion intelligente des salles d'attente. Implémente plusieurs algorithmes de planification (FIFO, Priority, SJF), avec suivi en temps réel des visiteurs et génération de statistiques détaillées.",
-    "skills": ["Spring Boot", "PostgreSQL", "Docker", "JUnit", "OpenAPI", "REST API"],
-    "demo": "https://github.com/nabilettihadi/WaitingRoom",
-    "source": "https://github.com/nabilettihadi/WaitingRoom.git"
+    "skills": ["HTML", "TailwindCss","NextJs", "git"],
+    "demo": "pprime-site.vercel.app",
+    "source": "https://github.com/oumaimaaitsaid/Pprime_Site.git"
   },
   {
-    "title": "EcoMove",
-    "imageSrc": "projects/ecomove.png",
-    "description": "Plateforme de gestion de billets de transport permettant aux clients de rechercher et réserver des billets pour différents moyens de transport. Gestion complète des clients, des réservations et des trajets.",
-    "skills": ["Java", "PostgreSQL", "JDBC", "Stream API", "Collection API", "POO"],
-    "demo": "https://github.com/nabilettihadi/EcoMove",
-    "source": "https://github.com/nabilettihadi/EcoMove.git"
+    "title": "GameRIG",
+    "imageSrc": "projects/gaming.png",
+    "description": "un site web dédié à la vente d accessoires et équipements pour les gamers. Il offre une gestion complète du catalogue pour les administrateurs (ajout, modification, suppression des articles) et des fonctionnalités interactives pour les utilisateurs, comme le tri, la recherche, la gestion d’un panier, et la génération d’un devis.",
+    "skills": ["HTML", "Css", "JavaScript" ,"TailwindCss", "Node.js" ],
+    "demo": "https://ggamerig-oumaimaaitsaids-projects.vercel.app/",
+    "source": "https://github.com/oumaimaaitsaid/Gaming_Squad_Startup2.git"
   },{
-    "title": "Bati-Cuisine",
-    "imageSrc": "projects/baticuisine.png",
+    "title": "Fut",
+    "imageSrc": "projects/FUT.png",
     "description": "Application Java pour l'estimation des coûts de construction et rénovation de cuisines. Gestion complète des projets avec calcul des coûts des matériaux, main-d'œuvre, et génération de devis personnalisés.",
-    "skills": ["Java", "PostgreSQL", "JDBC", "Stream API", "Design Patterns", "Git"],
-    "demo": "https://github.com/nabilettihadi/BatiCuisine",
-    "source": "https://github.com/nabilettihadi/BatiCuisine.git"
+    "skills": ["HtML", "CSS", "JavaScript", "Git"],
+    "demo": "https://github.com/oumaimaaitsaid/Oumaima_Aitsaid_FUT",
+    "source": "https://github.com/oumaimaaitsaid/Oumaima_Aitsaid_FUT"
   }
 ]

@@ -1,141 +1,105 @@
-@import "../../vars.css";
+/* Variables de couleur pour un thème sombre (comme votre image) */
+:root {
+  --color-bg: #191924;        /* Arrière-plan sombre de la carte */
+  --color-bg-light: #222230; /* Arrière-plan plus clair (pour les pilules) */
+  --color-primary: #576cbc;     /* Bleu/Violet pour les boutons et accents */
+  --color-text: #ffffff;       /* Texte blanc */
+  --color-text-secondary: #c4c4c4; /* Texte gris clair (description) */
+}
 
 .container {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
-  padding: 24px 32px;
-  max-width: 400px;
-  transition: transform 0.3s ease;
+  background: linear-gradient(180deg, var(--color-bg) 0%, #2a2a3a 100%);
+  border-radius: 15px; /* Coins plus arrondis */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  padding: 24px;
+  width: 360px; /* Largeur fixe pour un meilleur contrôle */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--color-bg-light);
 }
 
 .container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 20px 0 #04152d;
+  transform: scale(1.03); /* Effet de zoom au survol */
+  box-shadow: 0 6px 20px rgba(87, 108, 188, 0.3); /* Ombre colorée */
 }
 
 .image {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 6px;
-  margin-bottom: 26px;
+  aspect-ratio: 16 / 9; /* Garde une proportion constante */
+  object-fit: cover; /* S'assure que l'image remplit l'espace */
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .title {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
-  margin-bottom: 20px;
-  color: #ffffff;
+  color: var(--color-text);
+  margin-bottom: 10px;
 }
 
 .description {
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 20px;
-  color: #ffffff;
-  flex-grow: 1;
-  line-height: 1.5;
+  font-size: 16px;
+  color: var(--color-text-secondary);
+  line-height: 1.5; /* Espacement des lignes pour la lisibilité */
+  margin-bottom: 15px;
+  /* Assure que la description ne devienne pas trop longue */
+  flex-grow: 1; /* Pousse les boutons vers le bas */
 }
 
 .skills {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 24px;
+  flex-wrap: wrap; /* Les pilules passent à la ligne si pas de place */
+  gap: 8px; /* Espace entre les pilules */
   list-style: none;
   padding: 0;
+  margin-bottom: 20px;
 }
 
 .skill {
-  font-size: 16px;
-  font-weight: 400;
-  border-radius: 100px;
-  background-color: var(--color-dark);
-  padding: 8px 16px;
-  color: #ffffff;
+  /* C'est le style "pilule" (pill) */
+  background-color: var(--color-bg-light);
+  color: var(--color-text-secondary);
+  padding: 6px 12px;
+  border-radius: 20px; /* Rend la pilule ovale */
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .links {
   display: flex;
-  justify-content: space-around;
-  gap: 16px;
-  margin-top: auto;
+  gap: 15px; /* Espace entre les deux boutons */
+  margin-top: auto; /* Pousse les boutons en bas de la carte */
 }
 
 .link {
+  /* C'est le style "bouton" */
   text-decoration: none;
-  color: #ffffff;
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 10px 30px;
-  transition: all 0.3s ease;
+  color: var(--color-text);
+  background-color: var(--color-primary);
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1; /* Fait que les deux boutons ont la même largeur */
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .link:hover {
-  background: var(--color-secondary);
-  transform: translateY(-2px);
+  background-color: #7a8ad4;
+  transform: translateY(-2px); /* Léger effet de soulèvement */
 }
 
-@media screen and (max-width: 830px) {
-  .container {
-    padding: 20px 24px;
-    width: 100%;
-    max-width: 100%;
-    min-height: 450px;
-  }
-
-  .image {
-    height: 180px;
-    margin-bottom: 20px;
-  }
-
-  .title {
-    font-size: 28px;
-  }
-
-  .description {
-    font-size: 16px;
-  }
+/* Style spécifique pour le bouton "Code source" */
+.link:last-of-type {
+  background-color: transparent;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
 }
 
-@media screen and (max-width: 480px) {
-  .container {
-    padding: 16px 20px;
-    min-height: auto;
-  }
-
-  .image {
-    height: 160px;
-    margin-bottom: 16px;
-  }
-
-  .title {
-    font-size: 24px;
-    margin-bottom: 16px;
-  }
-
-  .description {
-    font-size: 15px;
-    margin-bottom: 16px;
-  }
-
-  .skills {
-    margin-bottom: 20px;
-    gap: 6px;
-  }
-
-  .skill {
-    font-size: 14px;
-    padding: 6px 12px;
-  }
-
-  .link {
-    font-size: 24px;
-    padding: 8px 24px;
-  }
+.link:last-of-type:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text);
 }

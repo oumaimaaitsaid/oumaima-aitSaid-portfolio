@@ -24,8 +24,8 @@
 }
 
 .slideWrapper {
-  width: 400px;
-  height: auto;
+  width: 380px;
+  height: 600px;
   margin: 0 auto;
   transition: transform 0.5s;
   display: flex;
@@ -115,6 +115,7 @@
   
   .slideWrapper {
     width: 300px;
+    height:520px;
   }
 }
 
@@ -125,5 +126,6 @@
   
   .slideWrapper {
     width: 250px;
+    height: 480px;
   }
 }
